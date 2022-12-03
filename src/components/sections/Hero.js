@@ -116,7 +116,7 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            <Video />
+            {/*<Video />*/}
             {/**
             <a
               data-video="https://player.vimeo.com/video/174002812"

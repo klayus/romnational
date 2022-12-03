@@ -5,7 +5,7 @@ function FormContact() {
   return (
     <>
       <div class="container1">
-        <form action="/action_page.php">
+        <form action={null}>
           <label for="fname">Nume</label>
           <input
             type="text"
@@ -24,7 +24,6 @@ function FormContact() {
 
           <label for="subject">Subiect</label>
           <textarea id="subject" name="subject" placeholder="Mesaj"></textarea>
-
           <input type="submit" value="Submit"></input>
         </form>
       </div>
